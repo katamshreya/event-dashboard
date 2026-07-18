@@ -1,8 +1,8 @@
-# Web Development Project 5 - *Brewery Dashboard*
+# Web Development Project 6 - *Brewery Dashboard Part 2*
 
 Submitted by: **Shreya Katam**
 
-This web app: **is a dashboard that fetches live brewery data from the Open Brewery DB API and displays it in a searchable, filterable list. Users can see at-a-glance stats like total breweries, number of states represented, and the most common brewery type, then dig into the full list by searching by name or filtering by brewery type.**
+This web app: **builds on the Brewery Dashboard from Project 5 by adding data visualizations and a detail view for each brewery. The dashboard now displays two charts (breweries by type, and top 10 states by brewery count) alongside the searchable, filterable list. Clicking on any brewery navigates to its own unique detail page with additional info like address, phone, website, and coordinates, while the sidebar with summary stats and filters stays visible across both views.**
 
 Time spent: **2** hours spent in total
 
@@ -10,39 +10,29 @@ Time spent: **2** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] **The site has a dashboard displaying a list of data fetched using an API call**
-  - The dashboard should display at least 10 unique items, one per row
-  - The dashboard includes at least two features in each row
-- [x] **`useEffect` React hook and `async`/`await` are used**
-- [x] **The app dashboard includes at least three summary statistics about the data** 
-  - The app dashboard includes at least three summary statistics about the data, such as:
-    - Total number of breweries fetched
-    - Number of unique states represented
-    - Most common brewery type
-- [x] **A search bar allows the user to search for an item in the fetched data**
-  - The search bar **correctly** filters items in the list, only displaying items matching the search query
-  - The list of results dynamically updates as the user types into the search bar
-- [x] **An additional filter allows the user to restrict displayed items by specified categories**
-  - The filter restricts items in the list using a **different attribute** than the search bar 
-  - The filter **correctly** filters items in the list, only displaying items matching the filter attribute in the dashboard
-  - The dashboard list dynamically updates as the user adjusts the filter
+- [x] **Clicking on an item in the list view displays more details about it**
+  - Clicking on an item in the dashboard list navigates to the detail view for that item
+  - Detail view includes extra information not included in the dashboard view
+  - The same sidebar is displayed in detail view as in dashboard view
+- [x] **Each detail view of an item has a direct, unique link to that item's page**
+- [x] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
+  - At least two charts should be incorporated into the dashboard view of the site
+  - Each chart should describe a different aspect of the dataset
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types
-  - e.g., as a text input, a dropdown or radio selection, and/or a slider
-- [ ] The user can enter specific bounds for filter values
+- [ ] The site's customized dashboard contains more content that explains what is interesting about the data
+- [ ] The site allows users to toggle between different data visualizations
 
 The following **additional** features are implemented:
 
 * [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
- 
+
 Here's a walkthrough of implemented user stories:
- 
-[Loom Walkthrough](https://www.loom.com/share/e28d18326f174946a67b63d1cfcff19c)
+
+[Loom Walkthrough](https://www.loom.com/share/029058b791b84d4294b34764da2494bb)
 
 ## Notes
 
